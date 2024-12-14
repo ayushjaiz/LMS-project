@@ -1,0 +1,37 @@
+.container1 {
+    height: 50vh;
+    padding: 5rem;
+    box-sizing: border-box;
+}
+.bannerBrands > svg{
+    /* color: white; */
+    font-size: 3rem;
+    transition: color 0.5s;
+}
+.bannerBrands > svg.hover{
+    color: rgb(255,221,0);
+}
+.container2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 video{
+    border: 1px solid rgba(0,0,0,0.1);
+    width: 60%;
+    border-radius: 5px;
+    outline: none;
+}
+
+@media screen and (max-width: 600px) {
+    .container2{
+        height: unset;
+        padding: 4vh 0;
+    }
+    .container2 video{
+        width: 100%;
+    }
+}
