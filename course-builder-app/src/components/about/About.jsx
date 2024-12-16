@@ -10,7 +10,7 @@ import {
   VStack,
 } from '@chakra-ui/react';
 import React from 'react';
-import my_profile from '../../assets/images/my_profile.jpeg';
+import my_profile from '../../assets/images/my_profile.jpg';
 import { Link } from 'react-router-dom';
 import intro from '../../assets/videos/intro.mp4';
 import { RiSecurePaymentFill } from 'react-icons/ri';
@@ -88,7 +88,7 @@ const About = () => {
 
       <TandC termsAndConditions={termsAndConditions} />
 
-      <HStack my={'4'} p={'4'}>
+      {/* <HStack my={'4'} p={'4'}>
         <RiSecurePaymentFill />
         <Heading
           children={'Payment is secured by Razorpay'}
@@ -96,7 +96,7 @@ const About = () => {
           textTransform={'uppercase'}
           fontFamily={'sans-serif'}
         />
-      </HStack>
+      </HStack> */}
     </Container>
   );
 };

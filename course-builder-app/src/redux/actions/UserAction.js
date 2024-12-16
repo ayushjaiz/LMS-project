@@ -78,7 +78,7 @@ export const buySubscription = () => async dispatch =>  {
     });
 
     // console.log(data)
-    dispatch({ type: 'buySubscriptionSuccess', payload: data.subscriptionId });
+    dispatch({ type: 'buySubscriptionSuccess', payload: "12345" });
   } catch (error) {
     dispatch({ type: 'buySubscriptionFail', payload: error.response.data.message });
   }
